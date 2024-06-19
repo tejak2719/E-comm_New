@@ -1,22 +1,33 @@
-import React from "react";
+import React from 'react';
 
-const Footer = () => {
+function Footer() {
   return (
-    <>
-      <footer className="mb-0 text-center">
-        <div className="d-flex align-items-center justify-content-center pb-5">
-          <div className="col-md-6">
-            <p className="mb-3 mb-md-0">Made by {" "}
-              <a  href="https://github.com/tejak2719" className="text-decoration-underline text-dark fs-5" target="_blank" rel="noreferrer">STRK N VMRT</a>
-            </p>
-            <a className="text-dark fs-4" href="https://github.com/tejak2719" target="_blank" rel="noreferrer">
-              <i className="fa fa-github"></i>
+    <footer className="footer" style={{ textAlign: 'center', padding: '20px', backgroundColor: '#f1f1f1' }}>
+      <div className="container" style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
+        <div className="footer-content" style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
+          <div className="social-media" style={{ marginBottom: '10px' }}>
+            <a href="https://github.com/tejak2719" target="_blank" rel="noopener noreferrer" style={{ marginRight: '10px' }}>
+              <img 
+                src="https://cdn.iconscout.com/icon/free/png-256/github-153-675523.png" 
+                alt="GitHub Tejak2719" 
+                className="social-icon" 
+                style={{ width: '30px', height: '30px' }}
+              />
+            </a>
+            <a href="https://github.com/vmrt01" target="_blank" rel="noopener noreferrer" style={{ marginRight: '10px' }}>
+              <img 
+                src="https://cdn.iconscout.com/icon/free/png-256/github-153-675523.png" 
+                alt="GitHub Vmrt01" 
+                className="social-icon" 
+                style={{ width: '30px', height: '30px' }}
+              />
             </a>
           </div>
+          <p>&copy; 2024 STRK N VMRT. All rights reserved.</p>
         </div>
-      </footer>
-    </>
+      </div>
+    </footer>
   );
-};
+}
 
 export default Footer;

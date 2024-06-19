@@ -8,7 +8,7 @@ const AboutPage = () => {
         <h1 className="text-center">About Us</h1>
         <hr />
         <p className="lead text-center">
-        Welcome to VMRT E-Commerce, your go-to destination for a seamless online shopping experience. Founded with a passion for quality and customer satisfaction, we offer a wide range of products to meet all your needs. Our mission is to bring you top-notch items at unbeatable prices, all while ensuring fast and reliable delivery. With a commitment to excellence and innovation, we strive to make your shopping journey enjoyable and hassle-free. Join us today and discover the difference at VMRT E-Commerce!
+        Welcome to STRK N VMRT E-Commerce, your go-to destination for a seamless online shopping experience. Founded with a passion for quality and customer satisfaction, we offer a wide range of products to meet all your needs. Our mission is to bring you top-notch items at unbeatable prices, all while ensuring fast and reliable delivery. With a commitment to excellence and innovation, we strive to make your shopping journey enjoyable and hassle-free. Join us today and discover the difference at STRK N VMRT E-Commerce!
         </p>
 
         <h2 className="text-center py-4">Our Products</h2>
