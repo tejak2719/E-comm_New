@@ -1,0 +1,28 @@
+.marketplace-container {
+    text-align: center;
+  }
+  
+  .vendor-list {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .vendor-card {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 20px;
+    text-align: center;
+    width: 200px;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .vendor-card:hover {
+    transform: translateX(-10px);
+  }
+  
+  .vendor-logo {
+    width: 100px;
+    height: auto;
+  }

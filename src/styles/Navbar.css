@@ -1,0 +1,24 @@
+.navbar {
+    margin-bottom: 20px;
+  }
+  
+  .nav-link {
+    margin-right: 10px;
+  }
+  
+  .navbar-brand {
+    font-weight: bold;
+  }
+  
+  .navbar-nav .nav-link.btn {
+    border-radius: 20px; /* Curved rectangular boxes */
+    margin-left: 10px; /* Space between buttons */
+  }
+  
+  .navbar-nav .nav-link {
+    padding: 8px 20px;
+  }
+  
+  .navbar-nav.ms-auto .nav-item {
+    margin-left: 10px;
+  }
