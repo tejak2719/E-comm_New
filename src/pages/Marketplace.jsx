@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import { Navbar } from '../components';
 import nikeLogo from '../assets/nike-logo.png';
 import adidasLogo from '../assets/adidas-logo.png';
 import gucciLogo from '../assets/gucci-logo.png';
@@ -17,6 +18,7 @@ const vendors = [
 
 const Marketplace = () => {
   return (
+    <div> <Navbar/>
     <div className="marketplace-container">
       <h1>Marketplace</h1>
       <div className="vendor-list">
@@ -29,6 +31,7 @@ const Marketplace = () => {
           </Link>
         ))}
       </div>
+    </div>
     </div>
   );
 };
